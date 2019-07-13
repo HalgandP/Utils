@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Copyright (C) 2018 SWITCHERS - All Rights Reserved
+  ~  * <p>
+  ~  * This source code is the property of SWITCHERS
+  ~  * You cannot copy, use, distribute or modify this code
+  ~  * without the explicit agreement of SWITCHERS Company.
+  ~  * <p>
+  ~  * For information or question please write to: info@switchers.io
+  ~  * <p>
+  ~  * Created by Halgand Pierre on 08/01/19 11:16
+  ~  */
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:fromXScale="0.3" android:toXScale="1.0"
+        android:fromYScale="0.3" android:toYScale="1.0"
+        android:pivotX="50%" android:pivotY="0%"
+        android:duration="@android:integer/config_shortAnimTime"
+        />
+    <alpha
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromAlpha="0.0" android:toAlpha="1.0"
+        android:duration="@android:integer/config_shortAnimTime"
+        />
+</set>
